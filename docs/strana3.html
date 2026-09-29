@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Prezentacija</title>
+		<link rel="stylesheet" href="Stilovi/stil.css">
+	</head>	
+	<script>
+		document.addEventListener("keydown", function(event) {
+			if (event.key === "ArrowLeft") {
+				window.location.href = "strana2.html";
+			}
+			
+			if (event.key === "ArrowRight") {
+				window.location.href = "strana4.html";
+			}
+		});
+	</script>	
+	<body>
+		<p style="text-align: center; font-weight: bold; font-size: 300%;">
+			<a href="strana2.html">
+			<<
+			</a>
+			Dodatne informacije
+			<a href="strana4.html">
+			>>
+			</a>
+		</p>
+		<hr>		
+
+		<p style="text-align: justify; font-weight: bold; font-size: 250%;">
+			• Prisustvo?
+		</p>
+		<p style="text-align: justify; font-weight: normal; font-size: 250%;">
+			‣ Nije obavezno.
+		</p>
+		<br>
+	</body>
+</html>
